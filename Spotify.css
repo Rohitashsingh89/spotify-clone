@@ -78,6 +78,7 @@ nav ul li {
 
 #myProgressBar {
   width: 80vw;
+  cursor: pointer;
 }
 
 .songItem{
@@ -91,28 +92,34 @@ nav ul li {
   align-items: center;
   border-radius: 34px;
 }
-
+.pl1{
+  padding-left: 1rem;
+}
+.px{
+  padding: 1rem
+}
 .songItem img{
   width: 35px;
   margin: 0 23px;
   border-radius: 34px;
 }
-
 .timestamp{
   margin: 0 23px;
 }
-
+.pointer{
+  cursor: pointer;
+}
 .timestamp i{
   cursor: pointer;
 }
 
 .songInfo{
   position: absolute;
-  left: 6.7vw;
+  left: 9.7vw;
   font-family: 'Varela Round', sans-serif;
 }
 
 .songInfo img {
   opacity: 0;
-  transition: upacity is ease-in;
+  transition: opacity 0.5s ease-in;
 }
